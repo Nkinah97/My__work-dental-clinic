@@ -3,6 +3,11 @@ $(window).on('load',function() {
   $("#container1").twentytwenty();
   });
 
+  AOS.init({
+    duration:1100,
+    disable: window.innerWidth < 600,
+  });
+
 
 document.querySelectorAll('.faq__question').forEach(question => {
   question.addEventListener('click', () => {

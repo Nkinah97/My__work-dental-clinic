@@ -8,7 +8,7 @@
     <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css" />
     <link rel="stylesheet" href="css/twenty/twentytwenty.css">
-
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link
   rel="stylesheet"
   href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
@@ -212,7 +212,7 @@
             <div class="banner__content-wrapper">
 
 
-            <div class="baner__left">
+            <div class="baner__left" data-aos="fade-right">
                 <h3 class="baner__top-text">Welcome to our clinic</h3>
                 <h1 class="baner__title">Dental Clinic BRIGHT SMILE</h1>
                 <p class="baner__subtitle">We at Bright Smile are always fully focused on helping your child and you to overcame any hurdle, whether it’s chicken pox or just a seasonal flue.</p>
@@ -223,7 +223,9 @@
             </div>
 
             <div class="baner__right">
-                <img class="baner__right-img" src="img/baner/logo.png" alt="">
+                <img data-aos="fade-left
+                class="baner__right-img"
+                src="img/baner/logo.png" alt="img">
             </div>
         </div>
         </div>
@@ -232,7 +234,7 @@
     <section class="features" id="features">
         <div class="container">
 
-            <div class="features__wrapper">
+            <div class="features__wrapper" data-aos="flip-left">
                 <div class="features__card">
                     <img src="img/features/1.png" alt="#">
                     <div class="features__card-text features__card-support">
@@ -1428,105 +1430,6 @@
 
             <!-- <swiper-container class="dental__icons-swiper">
 
-                <swiper-slide>
-                    <div class="dental__icons-card">
-                        <div class="dental__img-wrapper">
-                            <img class="dental__img" src="img/dental/1.svg" alt="dental">  
-                            <img class="dental__img-hover" src="img/dental/1.svg" alt="dental">  
-                        </div>
-                        <p class="dental__icons-card-title">DENTAL CARE</p>
-                        <p class="dental__icons-card-text">CLINIC</p>
-                    </div>           
-                </swiper-slide>
-
-                <swiper-slide>
-                    <div class="dental__icons-card">
-                        <div class="dental__img-wrapper">
-                            <img class="dental__img" src="img/dental/2.svg" alt="dental">  
-                            <img class="dental__img-hover" src="img/dental/2.svg" alt="dental">  
-                        </div>
-                        <p class="dental__icons-card-title">DENTAL CARE</p>
-                        <p class="dental__icons-card-text">CLINIC</p>
-                    </div>
-                </swiper-slide>
-
-                <swiper-slide>
-                    <div class="dental__icons-card">
-                        <div class="dental__img-wrapper">
-                            <img class="dental__img" src="img/dental/3.svg" alt="dental">  
-                            <img class="dental__img-hover" src="img/dental/3.svg" alt="dental">  
-                        </div>
-                        <p class="dental__icons-card-title">DENTAL CARE</p>
-                        <p class="dental__icons-card-text">CLINIC</p>
-                    </div>
-                
-                </swiper-slide>
-
-                <swiper-slide>
-
-            <div class="dental__icons-card">
-                <div class="dental__img-wrapper">
-                    <img class="dental__img" src="img/dental/3.svg" alt="dental">  
-                    <img class="dental__img-hover" src="img/dental/3.svg" alt="dental">  
-                </div>
-                <p class="dental__icons-card-title">DENTAL CARE</p>
-                <p class="dental__icons-card-text">CLINIC</p>
-            </div>
-                </swiper-slide>
-
-                <swiper-slide>
-                    <div class="dental__icons-card">
-                        <div class="dental__img-wrapper">
-                            <img class="dental__img" src="img/dental/4.svg" alt="dental">  
-                            <img class="dental__img-hover" src="img/dental/4.svg" alt="dental">  
-                        </div>
-                        <p class="dental__icons-card-title">DENTAL CARE</p>
-                        <p class="dental__icons-card-text">CLINIC</p>
-                    </div>
-                
-                </swiper-slide>
-
-                <swiper-slide>
-                    
-            <div class="dental__icons-card">
-                <div class="dental__img-wrapper">
-                    <img class="dental__img" src="img/dental/5.svg" alt="dental">  
-                    <img class="dental__img-hover" src="img/dental/5.svg" alt="dental">  
-                </div>
-                <p class="dental__icons-card-title">DENTAL CARE</p>
-                <p class="dental__icons-card-text">CLINIC</p>
-            </div>
-
-                </swiper-slide>
-
-                <swiper-slide>
-                    
-            <div class="dental__icons-card">
-                <div class="dental__img-wrapper">
-                    <img class="dental__img" src="img/dental/5.svg" alt="dental">  
-                    <img class="dental__img-hover" src="img/dental/5.svg" alt="dental">  
-                </div>
-                <p class="dental__icons-card-title">DENTAL CARE</p>
-                <p class="dental__icons-card-text">CLINIC</p>
-            </div>
-
-                </swiper-slide>
-
-                <swiper-slide>
-                    
-            <div class="dental__icons-card">
-                <div class="dental__img-wrapper">
-                    <img class="dental__img" src="img/dental/6.svg" alt="dental">  
-                    <img class="dental__img-hover" src="img/dental/6.svg" alt="dental">  
-                </div>
-                <p class="dental__icons-card-title">DENTAL CARE</p>
-                <p class="dental__icons-card-text">CLINIC</p>
-            </div>
-
-                </swiper-slide>
-
-            </swiper-container> -->
-
             <!-- Slider main container -->
         <div class="swiper swiper-dental">
             <!-- Additional required wrapper -->
@@ -1870,6 +1773,7 @@
     <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
     <script src="js/jquery.twentytwenty.js"></script>
     <script src="js/jquery.event.move.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>

@@ -861,7 +861,7 @@ legend {
 }
 
 .services__top-row-title {
-  font-size: 44px;
+  font-size: 35px;
   font-weight: 700;
   line-height: 150%;
   text-wrap: nowrap;
@@ -2235,6 +2235,7 @@ legend {
 }
 
 .appointment__textarea {
+  resize: none;
   background-color: white;
   width: 100%;
   margin-top: 40px;
@@ -2491,7 +2492,7 @@ legend {
 
 @media (max-width: 1420px) {
   .about__us-num-wrap-page-one {
-    width: 90%;
+    width: 100%;
   }
   .testimonials__swiper-slide {
     width: 50% !important;
