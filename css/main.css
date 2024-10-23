@@ -3577,6 +3577,10 @@ legend {
   border-radius: 20px;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: "Roboto", serif;
   font-size: 16px;
