@@ -20,26 +20,52 @@ document.querySelectorAll('.faq__question').forEach(question => {
 });
 
 
+// const swiper = new Swiper('.testimonials-swiper', {
+//   direction: 'horizontal',
+//   duration: 1400,
+//   loop: true,
+//   effect: 'slider',
+//   // cubeEffect: {
+//   //   shadow: false,
+//   // },
+//   pagination: {
+//     el: '.swiper-pagination',
+//     clickable: true,
+//   },
+//   navigation: {
+//     nextEl: '.swiper-button-next',
+//     prevEl: '.swiper-button-prev',
+//   },
+//   scrollbar: {
+//     el: '.swiper-scrollbar',
+//   },
+// });
+
 const swiper = new Swiper('.testimonials-swiper', {
+  // Optional parameters
   direction: 'horizontal',
-  duration: 1400,
   loop: true,
-  effect: 'slider',
-  // cubeEffect: {
-  //   shadow: false,
-  // },
-  pagination: {
-    el: '.swiper-pagination',
-    clickable: true,
+  effect: 'cube', // Додаємо ефект куба
+  cubeEffect: {
+    shadow: true,
+    slideShadows: true,
+    shadowOffset: 20,
+    shadowScale: 0.94,
   },
+  // If we need pagination
+  pagination: {
+    el: '.testimonials-swiper-pagination',
+  },
+  // Navigation arrows
   navigation: {
     nextEl: '.swiper-button-next',
     prevEl: '.swiper-button-prev',
   },
-  scrollbar: {
-    el: '.swiper-scrollbar',
-  },
+  // And if we need scrollbar
+
 });
+
+
 
 const swiper2 = new Swiper('.swiper-gallery', {
   duration: 1400,

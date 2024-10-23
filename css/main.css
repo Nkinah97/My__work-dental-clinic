@@ -1617,23 +1617,14 @@ legend {
   position: relative;
 }
 
-.testimonials-swiper {
-  position: absolute;
-  overflow: hidden;
-}
-
-.testimonials-swiper-wrapper {
-  overflow: visible;
-}
-
-.testimonials__footer-social {
+.testimonal__card {
+  height: 430px;
   position: relative;
 }
 
 .testimonials-swiper-pagination {
   position: absolute;
-  bottom: -170px !important;
-  left: -200px !important;
+  bottom: -56px !important;
 }
 
 .swiper-pagination-bullet {
