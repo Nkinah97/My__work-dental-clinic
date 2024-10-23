@@ -1,0 +1,60 @@
+@import 'var';
+
+.choose {
+    background-color: $-color-3;
+    padding: 100px 0;
+}
+
+.choose__top-row-left {
+    max-width: 535px;
+}
+
+.choose-desc {
+    margin-bottom: 34px;
+}
+
+.progress__text {
+    display: flex;
+    justify-content: space-between;
+}
+
+.progress__line {
+    height: 10px;
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.progress__item {
+    margin-bottom: 20px;
+}
+
+.progress__drag {
+    width: 95%;
+    background-color: $-color-1;
+    height: 100%;
+}
+
+.progress__item-2 .progress__drag {
+width: 85%;
+}
+
+.progress__item-3 .progress__drag {
+    width: 85%;
+}
+
+.choose__top-row {
+display: flex;
+align-items: center;
+gap: 30px;
+}
+
+.choose__top-row-right {
+width: 590px;   
+border-radius: 20px;
+overflow: hidden;
+}
+
+.progress__name {
+    margin-bottom: 20px;
+}

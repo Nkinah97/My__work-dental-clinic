@@ -1,0 +1,25 @@
+.features__wrapper {
+    display: flex;
+    padding: 60px 0;
+    border-bottom: 1px solid #E3E3E3;
+    gap: 40px;
+}
+
+.features__card {
+display: flex;
+align-items: center;
+gap: 25px;
+max-width: 364px;
+}
+
+
+.features__card-title {
+    margin-bottom: 10px;
+    font-size: 22px;
+}
+
+.features__card-desc {
+    color: $-color-text;
+}
+
+

@@ -1,0 +1,90 @@
+.newsletter__form {
+    display: flex;
+    align-items: center;
+}
+
+.newsletter {
+    background-image: url('/img/mewsletter/Background\ Image.png');
+    height: 377px;
+    background-position: center center; /* x y */
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.newsletter__wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newsletter__input {
+    max-width: 512px;
+    width: 100%;
+    justify-content: space-between;
+    height: 53px;
+    border-radius: 20px;
+    background: rgba(233, 224, 224, 0.21);
+    opacity: 3;
+    position: relative;
+    padding: 0 12px;
+    padding: 10px 172px 10px 31px;
+}
+
+.newsletter__input::placeholder {
+    color: white;
+}
+
+.newsletter__input-btn {
+    cursor: pointer;
+    background-color: $-color-1;
+    z-index: 1;
+    border-radius: 20px;
+    // position: absolute;
+    margin-left: -170px;
+    padding: 10px 31px;
+    text-transform: uppercase;
+}
+
+.newsletter__left {
+    color: white;
+}
+
+.newsletter__title {
+    font-size: 22px;
+    text-transform: uppercase;
+    line-height: 150%;
+}
+
+.newsletter__text {
+    font-size: 44px;
+    max-width: 703px;
+    line-height: 133%;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,116 @@
+.contact {
+    padding: 80px 0;
+}
+
+.contact__card-wrapper {
+    margin-bottom: 80px;
+}
+
+.contact__card-wrapper {
+    background-color: $-color-3;
+    padding: 40px;
+    position: relative;
+    border-radius: 20px;
+}
+
+
+.contact__card-icon {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.contact__card {
+    display: flex;
+    gap: 38px;
+}
+
+.contact__card-left {
+    display: flex;
+    flex-direction: column;
+    max-width: 456px;
+    color: white;
+    background-color: $-color-1;
+    border-radius: 20px;
+    padding: 40px 35px;
+}
+
+.contact__card-left-contact{
+    margin-bottom: 22px;
+    width: 100%;
+}
+
+.contact__card-left-contact-address-row {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.contact__card-left-contact-address-bottom-text {
+    margin-left:36px;
+}
+
+.contact__card-left-contact {
+    max-width: 279px;
+
+}
+
+.contact__card-left-contact a {
+    color: white;
+}
+
+.contact__card-left-title {
+    font-size: 35px;
+    line-height: 50px;
+    margin-bottom: 14px;
+    font-weight: 700;
+}
+
+.contact__card-left-text {
+    color: #d3d1d1;
+    margin-bottom: 35px;
+}
+
+.contact__card-right-text {
+    color: #636060;
+}
+
+.contact__card-right-title {
+    font-size: 35px;
+    line-height: 50px;
+    margin-bottom: 14px;
+    font-weight: 700;
+}
+
+.contact__card-right-form {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.input__area {
+    grid-column: 1/-1;
+    height: 180px;
+}
+
+.contact__card-right-form input,
+.contact__card-right-form-area {
+    background-color: white;
+    padding: 16px;
+    border-radius: 10px;
+    
+}
+
+.contact__card-right-form-area {
+resize: none;
+grid-column: 1/-1;
+height: 180px;
+}
+
+.contact__card-right-form-btn {
+    background-color: $-color-1;
+    color: white;
+    padding: 16px 20px;
+    border-radius: 20px;
+}

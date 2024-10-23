@@ -1,0 +1,88 @@
+.dental__icons-wrapper {
+    height: 360px;
+    display: flex;
+    align-items: center;
+justify-content: center;
+
+    
+
+}
+
+.dental__icons-card {
+    width: 176px;
+    height: 200px;
+    background-color: $-color-1;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+
+
+.dental__icons-card-title,
+.dental__icons-card-text {
+    margin-top: 18px;
+    text-transform: uppercase;
+    color: whitesmoke;
+}
+
+.dental__icons-card-text {
+    margin-top: 0;
+}
+
+
+.dental__img, .dental__img-hover {
+    width: 69px;
+    height: 68px; 
+
+}
+
+
+.dental__icons-card {
+    position: relative;
+}
+
+.dental__img-wrapper {
+    position: relative;
+    overflow: hidden;
+}
+
+.dental__img {
+    filter: brightness(1);
+    transition: filter .3s;
+}
+
+.dental__img-hover {
+    position: absolute;
+    top: -100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: brightness(10);
+    transition: transform .3s;
+    transform: translateY(100%);
+}
+
+/* Change the hover selector to .dental__icons-card */
+.dental__icons-card:hover .dental__img-hover {
+    transform: translateY(0);
+}
+
+
+.dental__icons-swiper {
+    display: flex;
+}
+
+.dental__icons-swiper {
+    flex-grow: 1;
+
+    gap: 25px;
+}
+
+.swiper-dental {
+    width: 100%;
+}

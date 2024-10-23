@@ -1,0 +1,82 @@
+.gallery {
+    position: relative;
+    width: 100%;
+margin-bottom: 50px;
+}
+
+
+.gallery::before {
+content: url();
+width: 100%;
+height: 1380px;
+position: absolute;
+background-image: url('/img/video/Rectangle399.png');
+background-position: center center; 
+background-size: cover;
+background-repeat: no-repeat;
+top: -299px;
+z-index: -1;
+}
+
+
+
+.gallery__top-desc {
+    margin-bottom: 0;
+}
+
+.gallery__top {
+text-align: center;
+
+padding-top: 60px;
+
+}
+
+
+.gallery__top-wrap {
+    max-width: 564px;
+    margin: 0 auto;
+
+}
+
+
+.gallery__top-desc{
+max-width: 620px;
+}
+
+
+.swiper-gallery-wrapper {
+display: flex;
+// overflow: hidden;
+}
+
+
+  .gallery-img img {
+    height: 500px;
+    // width: 100%;
+    max-width: 460px;
+  }
+
+  .swiper-gallery {
+    padding: 49px 0;
+  }
+
+  .swiper-horizontal>.swiper-scrollbar, .swiper-scrollbar.swiper-scrollbar-horizontal {
+      width: 315px;
+      bottom: -80px;
+      left: 50%;
+      transform: translateX(-50%);
+  }
+
+  
+  
+.swiper-pagination-gallery {
+    width: 10px;
+    height: 20px;
+
+}
+
+
+.gallery-btn {
+    margin-top: 100px;
+}
+

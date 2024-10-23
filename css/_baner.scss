@@ -1,0 +1,62 @@
+.banner__wrap {
+    padding-top: 185px;
+    color: white;
+    background-image: url('/img/baner/bgim.png');
+    background-position: center ; /* x y */
+    background-size: cover ;
+    background-repeat: no-repeat;
+    
+}
+
+.banner__content-wrapper {
+    display: flex;
+}
+
+.baner__left {
+max-width: 584px;
+margin-top: 120px;
+}
+
+.baner__top-text {
+font-size: 18px;
+font-weight: 700;
+text-transform: uppercase;
+margin-bottom: 27px;
+}
+
+.baner__title {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 80px;
+    margin-bottom: 22px;
+}
+
+.baner__subtitle {
+font-size: 18px;
+line-height: 31.68px;
+margin-bottom: 42px;
+width: 526px;
+}
+
+
+.banner__wrap-btn {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+}
+
+.bunner__button {
+    padding: 20px 42px;
+    border-radius: 36px;
+    background: $-color-2;
+}
+
+.button__transparans {
+padding: 20px 42px;
+color: white;
+background-color: transparent;
+border: 1px solid white;
+border-radius: 36px;
+}
+
+

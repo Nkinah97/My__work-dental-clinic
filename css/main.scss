@@ -1,0 +1,95 @@
+//font
+@import url(https://fonts.googleapis.com/css?family=Roboto:100,100italic,300,300italic,regular,italic,500,500italic,700,700italic,900,900italic);;
+
+@import 'header';
+@import 'reset1';
+@import 'var';
+@import 'baner';
+@import 'features';
+@import 'about-us';
+@import 'marquee';
+@import 'services';
+@import 'choose-us';
+@import 'team';
+@import 'faq';
+@import 'testimonials';
+@import 'prices';
+@import 'video';
+@import 'gallery';
+@import 'blog';
+@import 'appointment';
+@import 'dental-icons';
+@import 'newsletter';
+@import 'footer';
+@import 'media'; 
+@import 'details'; 
+@import 'contact'; 
+
+html {
+    // scroll-behavior: smooth;
+}
+
+body {
+    font-family:"Roboto", serif;
+    font-size: 16px;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.container-fluid {
+    max-width: 2000px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+
+
+.menu__link-active  {
+    position: relative;
+}
+
+.menu__link-active::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 4px;
+    width: 80%;
+    background-color: $-color-5;
+    
+}
+
+.breadcrumbs {
+    display: flex;
+    // padding-top: 250px;
+    padding: 180px 0 50px 0 ;
+    // padding-bottom: 70px;
+    margin: 0 auto;
+    background-image: url('../img/about-us/bd.png');
+    background-position: center; /* x y */
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+}
+
+.breadcrumbs__title {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 50px;
+    margin-bottom: 15px;
+}
+
+.breadcrumbs__nav {
+    font-weight: 18px;
+    line-height: 21px;
+    font-weight: 700;
+}

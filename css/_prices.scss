@@ -1,0 +1,86 @@
+.prices {
+    padding: 100px 0;
+}
+
+.pricing__link {
+    line-height: 195%;
+    padding: 15px 30px;
+    border-bottom: 1px solid #E0DADA;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+
+.pricing__link img {
+    content: url(/img/price/Check.svg);
+}
+
+.pricing__link-disable img {
+    content: url(/img/price/Check-sidable.svg);
+}
+
+.pricing__table {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+
+    border: 1px solid rgb(2, 2, 2);
+    border-radius: 20px;
+
+}
+
+
+
+.pricing__card {
+    border-right: 1px solid silver;
+}
+
+.pricing__card-active {
+    background-color: #f3f3f3;
+}
+
+.pricing__card:last-child {
+    border-right: none;
+
+}
+
+.pricing__title {
+    font-size: 24px;
+    font-weight: 700;
+    text-transform: uppercase;
+    line-height: 185%;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.pricing__price {
+    background-color: $-color-2;
+    text-align: center;
+}
+
+.pricing__price-price {
+font-size: 35px;
+font-weight: 700;
+text-transform: uppercase;
+color: white;
+}
+
+.pricing__price-text {
+font-weight: 500;
+color: white;
+}
+
+
+.pricing__btn-text  {
+    padding: 16px 30px;
+    background-color: $-color-1;
+    color: white;
+    border-radius: 20px;
+    justify-content: center;
+}
+
+.pricing__btn {
+    padding: 26px 0;
+    display: flex;
+    margin: 0 auto;
+}

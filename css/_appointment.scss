@@ -1,0 +1,62 @@
+.appointment__img {
+    content: url(/img/appointment/appointment.png);
+}
+
+.appointment::before { 
+background-image: url(/img/appointment/Rectangle\ 66.png);
+}
+    
+
+.appointment__wrapper {
+    gap: 30px;
+}
+
+.appointment__right {
+    max-width: 650px;
+    margin-left: -50px;
+}
+
+.appointment-desc {
+    margin-bottom: 40px;
+}
+
+.appointment__form {
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 16px 20px;
+}
+
+.appointment__input {
+    height: 50px;
+    width: 269px;
+    padding: 23px 16px;
+    background-color: white;
+    border-radius: 10px;
+    color: $-color-text;
+}
+
+.service__select {
+    padding: 0;
+    color: $-color-text;
+}
+
+.service__select option:hover {
+    background-color: $-color-2;
+}
+
+.appointment__textarea {
+    background-color: white;
+    width: 100%;
+    margin-top: 40px;
+    padding: 16px 23px;
+    border-radius: 10px;
+    grid-column: 1/-1;
+    grid-row: span 7;
+
+}
+
+.blogs-btn {
+    width: 80%;
+    text-wrap: nowrap;
+    margin-top: 10px;
+}
