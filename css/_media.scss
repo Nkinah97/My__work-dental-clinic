@@ -75,6 +75,10 @@
 
 @media (max-width:1190px) {
 
+    .team__card-wrapper {
+        flex-wrap: wrap;
+    }
+
     .blogs__card-top-date {
         right:0;
     }

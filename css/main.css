@@ -1078,7 +1078,6 @@ legend {
 .team__card-wrapper {
   display: flex;
   gap: 37px;
-  flex-wrap: wrap;
   margin-bottom: 40px;
 }
 
@@ -2540,6 +2539,9 @@ legend {
   }
 }
 @media (max-width: 1190px) {
+  .team__card-wrapper {
+    flex-wrap: wrap;
+  }
   .blogs__card-top-date {
     right: 0;
   }
