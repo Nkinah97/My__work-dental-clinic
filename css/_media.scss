@@ -83,10 +83,7 @@
         padding: 50px 0;
     }
 
-    .about__row {
-        display: flex;
-        flex-direction: column;
-    }
+
 
     .about__us-left-page-one {
         display: flex;
@@ -171,9 +168,13 @@
 
 
     .marquee__wrapper  {
-        margin-top: 250px;
+        // margin-top: 250px;
+        margin-top: 50px;
     }
     
+    .marquee {
+        padding: 40px 0;
+    }
 
     .choose__top-row {
         display: flex;
@@ -352,6 +353,15 @@
 }
 
 @media (max-width:980px) {
+
+    .about__row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .about__us-rigth {
+        margin: 0 auto;
+    }
 
     .team__details-info {
         min-width: 300px;
@@ -702,11 +712,9 @@ grid-template-columns: none;
         display: block;
     }
 
-    .about__us-rigth img {
-        height: 10%;
-        width: 42%;
-    }
+
 }
+
 @media (max-width:615px) {
     .contact__card-icon {
         display: none;
