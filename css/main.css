@@ -3050,10 +3050,12 @@ legend {
   }
   .testimonials__star-title {
     max-width: 490px;
+    margin: 0 auto;
   }
   .testimonials__footer {
-    left: 0;
-    width: 490px;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 400px;
   }
   .newsletter__title {
     text-align: center;
@@ -3180,10 +3182,13 @@ legend {
     width: 300px;
   }
   .testimonials__star-title {
-    max-width: 290px;
+    max-width: 300px;
+    overflow: hidden;
   }
   .testimonials__footer {
-    width: 290px;
+    width: 300px;
+    bottom: -67px;
+    overflow: hidden;
   }
 }
 @media (max-width: 560px) {
@@ -3212,6 +3217,15 @@ legend {
   }
 }
 @media (max-width: 460px) {
+  .blogs__card-top-img {
+    width: 296px;
+  }
+  .about__us-desc {
+    font-size: 14px;
+  }
+  .services__top-row-title {
+    font-size: 25px;
+  }
   .contact__card-left-title {
     font-size: 22px !important;
     line-height: normal !important;
