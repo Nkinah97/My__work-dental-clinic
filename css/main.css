@@ -3604,13 +3604,13 @@ legend {
 
 html {
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
   font-family: "Roboto", serif;
   font-size: 16px;
   max-width: 100%;
-  overflow-x: hidden;
 }
 
 .container {
