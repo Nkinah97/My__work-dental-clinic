@@ -1079,6 +1079,12 @@ grid-template-columns: none;
     }
 }
 
+@media (max-width:464px) {
+    .faq__question {
+        flex-direction: column;
+    }
+}
+
 @media (max-width:420px) {
 
     .contact__card-left-title {

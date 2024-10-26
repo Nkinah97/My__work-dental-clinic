@@ -110,6 +110,7 @@
   background-color: white;
   color: rgb(0, 0, 0);
   text-align: center;
+  z-index: 2;
   padding: 12px 21px;
   border-radius: 0 0 20px 20px;
   transition: 0.3s;
@@ -850,6 +851,8 @@ legend {
   gap: 90px;
   margin-bottom: 60px;
   margin: 90px 0 60px;
+  position: relative;
+  z-index: -2;
 }
 
 .services__top-row-text {
@@ -3260,6 +3263,11 @@ legend {
     line-height: 20px;
   }
 }
+@media (max-width: 464px) {
+  .faq__question {
+    flex-direction: column;
+  }
+}
 @media (max-width: 420px) {
   .contact__card-left-title {
     font-size: 20px;
@@ -3295,6 +3303,7 @@ legend {
 
 .details__content-img {
   position: relative;
+  z-index: -2;
 }
 
 .details__content-bg-img {
@@ -3491,6 +3500,7 @@ legend {
   padding: 40px;
   position: relative;
   border-radius: 20px;
+  z-index: -1;
 }
 
 .contact__card-icon {
